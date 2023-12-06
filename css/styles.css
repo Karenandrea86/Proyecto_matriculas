@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-color: bisque;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*inicio cabecera*/
+.cabecera{
+    background-color: rgb(115, 179, 50);
+    width: 70%;
+    height: 50px;
+    padding: 0 40px;
+}
+
+.cabecera__link{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cabecera__img{
+    object-fit: cover;
+    height: 90%;
+    margin-right: 10px;
+}
+/*fin cabecera*/
+
+/*inicio navegacion*/
+.navegacion{
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+    height: 60px;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 50px;
+}
+
+.navegacion a:hover{
+    color: rgb(0, 0, 0,);
+    background-color: rgb(218, 185, 87);
+}
+/*fin navegacion*/
+
+/*inicio banner*/
+.banner{
+    background-image: url(../admin/img/piso-jardin-infantil.jpg);
+    background-position: center;
+    width: 70%;
+    height: calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.banner h1{
+    font-size: 75px;
+}
+
+.banner h2{
+    font-size: 30px;
+}
+
+.banner a{
+    background-color: rgb(218, 185, 87);
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 75px;
+    color: black;
+}
+
+.banner a:hover{
+    background-color: rgb(47, 47, 47);
+    color: rgb(255, 255, 255);
+}
+/*fin banner*/
+
+/*inicia seccion 2*/
+.seccion-2{
+    background-color: rgb(203, 231, 196);
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+
+.bloque-izq{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 0 3%;
+}
+
+.izq-titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.izq-titulo h2{
+    font-size: 28px;
+}
+
+.izq-titulo h3{
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgb(114, 114, 114);
+}
+
+.izq-img{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.izq-img img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.izq-parrafo{
+    font-size: 18px;
+}
+
+.bloque-der{
+    width: 40%;
+    height: 100%;
+    padding: 0 3%;
+}
+
+.der-titulo{
+    text-align: center;
+}
+
+.der-titulo h3{
+    font-size: 20px;
+}
+
+.der-noticias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    margin: 30px 0;
+}
+
+.noticias-img{
+    width: 32%;
+}
+
+.noticias-img img{
+    object-fit: cover;
+    width: 105%;
+}
+
+.noticias-textos{
+    width: 50%;
+    margin: 0 10px;
+}
+
+.noticias-textos h4{
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.noticias-textos p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.noticias-textos a{
+    font-size: 14px;
+    margin-top: 15px;
+}
+/*finaliza seccion 2*/
+
+/*inicia seccion 3*/
+.seccion-3{
+    background-color: rgb(193, 253, 253);
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.article{
+    width: 60%;
+    height: 100%;
+    padding: 0 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabla-titulo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabla-titulo h2{
+    font-size: 28px;
+    color: rgb(0, 0, 0);
+}
+
+.tabla-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    margin: 30px 0;
+}
+
+.tabla{
+    table-layout: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+.fila-dato{
+    width: auto;
+    height: 40px;
+}
+
+.fila-dato:nth-child(odd){
+    background-color: rgb(245, 245, 245);
+}
+
+.fila-dato:nth-child(even){
+    background-color: rgb(231, 231, 231);
+}
+
+.columna{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.rs-div{
+    width: 100%;
+    height: auto;
+}
+
+.rs-img{
+    width: 100%;
+    height: 40px;
+}
+
+.rs-img img{
+    object-fit: cover;
+    height: 100%;
+    margin: 0 10px;
+}
+
+.aside{
+    background-color: red;
+    width: 40%;
+    height: 100%;
+}
+
+.mapa{
+    background-color: aquamarine;
+    width: 100%;
+    height: 35%;
+}
+
+.mapa iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.form-div{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    padding: 15px;
+}
+
+.form-div h3{
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.form-div p{
+    font-size: 18px;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.formulario{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+input{
+    width: 100%;
+    height: 35%;
+    margin: 5px 0;
+    outline: none;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.textarea{
+    width: 100%;
+    height: 80%;
+    margin: 5px 0;
+    outline: none;
+    resize: none;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.submit{
+    width: 50%;
+    height: 45%;
+    margin: 30px 0;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+/*finaliza seccion 3*/
+
+/*inicia seccion 4*/
+.seccion-4{
+    background-color: rgb(0, 0, 0);
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacion-footer{
+    width: 70%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.navegacion-footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 50px;
+}
+
+.navegacion-footer a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 185, 87);
+}
+
+.contenedor-s4{
+    width: 100%;
+    height: calc(100% - 120px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.textos-s4{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.textos-s4 h3{
+    color: white;
+    font-size: 24px;
+}
+
+.textos-s4 a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.textos-s4:nth-child(odd){
+    background-color: rgb(34, 34, 34);
+}
+
+.textos-s4:nth-child(even){
+    background-color: rgb(64, 64, 64);
+}
+
+.footer{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.footer p{
+    font-size: 18px;
+}
+/*finaliza seccion 4*/
